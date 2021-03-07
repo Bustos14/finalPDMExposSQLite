@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="152dp">
+
+        <TextView
+            android:id="@+id/txNombreExpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="116dp"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="NombreExpo"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/inicio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txNombreExpo" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/fin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/txFechaInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:text="fechaInicio"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/txNombreExpo"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/txFechaFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="10dp"
+            android:text="fechaFin"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="@+id/txFechaInicio"
+            app:layout_constraintTop_toTopOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

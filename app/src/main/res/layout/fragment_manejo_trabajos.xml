@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.GestionarTrabajosFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/traNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/nombreExpo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/traDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/descripcion"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/traTamaño"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/tamaño"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/traPeso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/peso"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/traArtDni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="DNI"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btAddTrab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Añadir" />
+
+            <Button
+                android:id="@+id/btModTra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modificar" />
+        </TableRow>
+
+
+    </TableLayout>
+</FrameLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.manejoExposiciones">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/gesExpID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ID"
+                android:inputType="number"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/gesExpNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/nombreExpo"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/gesExpDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/descripcion"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/gesExpFechaIni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Fecha de inicio"
+                android:inputType="date" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:id="@+id/gesExpFechaFin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Fecha de fin"
+                android:inputType="date" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+
+            <Button
+                android:id="@+id/idAceptarExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Aceptar" />
+
+            <Button
+                android:id="@+id/btModExpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Modificar" />
+
+
+        </TableRow>
+
+    </TableLayout>
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Expos">
+
+    <fragment
+        android:id="@+id/nav_trabajos"
+        android:name="com.example.appfinalpdmsqlite.ui.fragment_trabajos"
+        android:label="@string/menu_trabajos"
+        tools:layout="@layout/fragment_trabajos" />
+    <fragment
+        android:id="@+id/nav_manejoTrabajos"
+        android:name="com.example.appfinalpdmsqlite.ui.manejoTrabajos"
+        android:label="@string/menu_trabajos"
+        tools:layout="@layout/fragment_manejo_trabajos" />
+
+    <fragment
+        android:id="@+id/nav_manejoExpo"
+        android:name="com.example.appfinalpdmsqlite.ui.manejoExposiciones"
+        android:label="@string/menu_expo"
+        tools:layout="@layout/fragment_manejo_exposiciones" />
+
+    <fragment
+        android:id="@+id/nav_Expos"
+        android:name="com.example.appfinalpdmsqlite.ui.fragment_expos"
+        android:label="@string/menu_expo"
+        tools:layout="@layout/fragment_expos" />
+    <fragment
+        android:id="@+id/nav_Artistas"
+        android:name="com.example.appfinalpdmsqlite.ui.fragment_artistas"
+        android:label="@string/menu_artista"
+        tools:layout="@layout/fragment_artistas" />
+    <fragment
+        android:id="@+id/nav_manejoArt"
+        android:name="com.example.appfinalpdmsqlite.ui.manejoArtistas"
+        android:label="@string/menu_artista"
+        tools:layout="@layout/fragment_manejo_artistas" />
+    <fragment
+        android:id="@+id/nav_comentarios"
+        android:name="com.example.appfinalpdmsqlite.ui.fragment_comentarios"
+        android:label="Comentarios"
+        tools:layout="@layout/fragment_comentarios" />
+</navigation>

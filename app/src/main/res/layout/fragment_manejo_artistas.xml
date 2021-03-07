@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.manejoArtistas">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/gesArtDNI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DNI"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/gesArtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre artista"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/gesArtDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Direccion"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/gesArtPoblacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Población"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/gesArtProvincia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Provincia"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/gesArtPais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Pais"
+            android:inputType="textPersonName"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/gesArtMovilPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Movil personal"
+            android:inputType="number"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/gesArtMovilTrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Movil Trabajo"
+            android:inputType="number"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/gesArtTlfFijo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Teléfono fijo"
+            android:inputType="number"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/gesArtWebBlog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Web"
+            android:inputType="textPersonName"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/gesArtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/gesArtFechaNaci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Web"
+            android:inputType="date"
+            android:text="" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/idAceptarArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Aceptar" />
+
+        <Button
+            android:id="@+id/btModArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Modificar" />
+
+
+    </TableRow>
+
+</TableLayout>
+</FrameLayout>

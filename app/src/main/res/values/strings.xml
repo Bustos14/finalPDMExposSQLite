@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">appFinalPDMSqlite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">App Gestion</string>
+    <string name="nav_header_subtitle">Gestion exposiciones</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_artista">Artista</string>
+    <string name="menu_expo">Exposiciones</string>
+
+    <!---Artistas-->
+    <string name="nombreArtista">Artista: </string>
+    <string name="Direccion">Direccion: </string>
+    <string name="Provincia">Provincia: </string>
+    <string name="Pais">Pais: </string>
+    <string name="Email">Email: </string>
+    <string name="Blog">Direccion web: </string>
+    <string name="FechaNac">Fecha de nacimiento: </string>
+    <string name="Poblacion">Población: </string>
+    <string name="MovilTrb">Movil Trab.</string>
+    <string name="MovilPersonal">Movil Pers.</string>
+    <string name="TlfFijo">Tlf Fijo</string>
+    <string name="Aceptar">Aceptar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Modificar">Modificar</string>
+
+    <!---Expos-->
+    <string name="inicio">Fecha de inicio: </string>
+    <string name="fin">Fecha fin: </string>
+    <string name="descripcion">Descripcion: </string>
+    <string name="nombreExpo">Nombre: </string>
+
+    <!---Trabajos-->
+    <string name="menu_trabajos">Trabajos</string>
+    <string name="peso">Peso</string>
+    <string name="tamaño">Tamaño</string>
+    <string name="nombreTrabajo">Nombre</string>
+    <string name="descripcionTrabajo">Descripcion</string>
+
+</resources>
